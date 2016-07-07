@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>EYNewsController</servlet-name>
+        <servlet-class>sdkd.com.ec.controller.EYNewsController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EYNewsController</servlet-name>
+        <url-pattern>/news.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EYTodaydiscoController</servlet-name>
+        <servlet-class>sdkd.com.ec.controller.EYTodaydiscoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EYTodaydiscoController</servlet-name>
+        <url-pattern>/todaydisco.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EYSellingController</servlet-name>
+        <servlet-class>sdkd.com.ec.controller.EYSellingController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EYSellingController</servlet-name>
+        <url-pattern>/selling.do</url-pattern>
+    </servlet-mapping>
+</web-app>
